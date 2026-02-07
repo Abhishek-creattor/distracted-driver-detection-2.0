@@ -1,0 +1,19 @@
+{
+  "drivers": {
+    "driver_id": "DRV001",
+    "name": "Amit Sharma",
+    "embedding": [0.012, -0.088, 0.031],
+    "thresholds": {
+      "ear": 0.21,
+      "mar": 0.74
+    },
+    "created_at": "2026-01-10T08:22:00Z",
+    "updated_at": "2026-01-10T08:35:00Z"
+  },
+  "distraction_events": {
+    "driver_id": "DRV001",
+    "event_type": "phone_usage",
+    "score": 0.91,
+    "timestamp": "2026-01-10T09:10:05Z"
+  }
+}
