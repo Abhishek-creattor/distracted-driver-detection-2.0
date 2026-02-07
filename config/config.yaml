@@ -1,0 +1,20 @@
+mongo:
+  uri: "mongodb://localhost:27017"
+  db: "driver_monitoring"
+
+camera:
+  index: 0
+
+face_recognition:
+  distance_threshold: 0.50
+
+alerts:
+  min_eye_closed_frames: 20
+  head_away_angle_deg: 25
+
+phone_detection:
+  confidence: 0.35
+  yolov8_model_path: "models/yolov8n.pt"
+
+calibration:
+  frames: 120
